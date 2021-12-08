@@ -1,0 +1,7 @@
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ccd7e8;
+    font-family: 'Motnserrat',sans-serif;
+  }

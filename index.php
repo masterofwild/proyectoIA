@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selección de productos</title>
-    <link rel="stylesheet" href="estilo.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="principal.css">
 </head>
 <body>
-    <h1>Bienvenido a la recomendación de productos</h1>
+    <center><h1>Bienvenido a la recomendación de productos</h1><br></center>
+    <center><h2>Elige un producto a buscar: </h2><br></center>
+    
+    
+    <center>
 
     <form action="enviar.php" method="POST">
 
@@ -24,10 +27,13 @@
             <option value="chips">Chips</option>
             <option value="yogurth">Yogurth</option>
             <option value="polvorones">Polvorones</option>
-            <option value="pinguinos">Pingüinos</option>
+            <option value="pinguino">Pingüinos</option>
         </select>
 
     <input type="submit">
     </form>
+    
+    </center>
+
 </body>
 </html>
