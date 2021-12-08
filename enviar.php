@@ -27,7 +27,7 @@
    
    $producto = $_POST['producto'];
 
-   $query = "SELECT id, nombre, cantidad, MIN(precio) as precio, tienda FROM productos where nombre = '".$producto."'";
+   $query = "SELECT * FROM productos where nombre = '".$producto."' order by precio limit 1";
 
    $result = mysqli_query($connect, $query);
    while($crow = mysqli_fetch_assoc($result))
